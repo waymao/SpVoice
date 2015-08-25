@@ -21,7 +21,7 @@ namespace Maticsoft.DBUtility
         //数据库连接字符串(web.config来配置)，可以动态更改connectionString支持多数据库.		
        // public static string connectionString = "Password=essence;User ID=essence;Data Source=198.17_ORCL;Max Pool Size=200;Min Pool Size=2";//
 
-        public static string connectionString = System.Configuration.ConfigurationManager.ConnectionStrings["essence"].ToString(); // "连接字符串"; 
+        public static string connectionString = System.Configuration.ConfigurationManager.ConnectionStrings["TOMDB"].ToString(); // "连接字符串"; 
 		public DbHelperOra()
 		{			
 		}
